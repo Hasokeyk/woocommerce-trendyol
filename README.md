@@ -2,6 +2,10 @@
 
 Bu wordpress eklentisi ile trendyol'daki mağazanızı woocommerce üzerinden güncelleyebilirsiniz.
 
+## wordpress.org linki
+
+https://wordpress.org/plugins/wc-trendyol/
+
 ## Açıklama
 
 Bu wordpress eklentisi ile trendyol'daki mağazanızı woocommerce üzerinden güncelleyebilirsiniz.
