@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f0f2569ccfc29013880756cf620511df",
+    "packages": [
+        {
+            "name": "hasokeyk/trendyol",
+            "version": "1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hasokeyk/trendyol-php.git",
+                "reference": "283a4bbb7bf66500c14a52a8d062cb1611d67eb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hasokeyk/trendyol-php/zipball/283a4bbb7bf66500c14a52a8d062cb1611d67eb8",
+                "reference": "283a4bbb7bf66500c14a52a8d062cb1611d67eb8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hasokeyk\\Trendyol\\": "src/trendyol"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Yüksektepe",
+                    "email": "hasanhasokeyk@hotmail.com"
+                }
+            ],
+            "description": "Basit Trendyol PHP API",
+            "keywords": [
+                "PHP API",
+                "eticaret",
+                "pazaryeri",
+                "trendyol",
+                "trendyol php api"
+            ],
+            "support": {
+                "issues": "https://github.com/Hasokeyk/trendyol-php/issues",
+                "source": "https://github.com/Hasokeyk/trendyol-php/tree/1.0.10"
+            },
+            "time": "2022-10-14T20:38:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

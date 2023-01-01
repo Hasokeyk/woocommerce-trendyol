@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "hasokeyk/trendyol",
+            "version": "1.0.10",
+            "version_normalized": "1.0.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hasokeyk/trendyol-php.git",
+                "reference": "283a4bbb7bf66500c14a52a8d062cb1611d67eb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hasokeyk/trendyol-php/zipball/283a4bbb7bf66500c14a52a8d062cb1611d67eb8",
+                "reference": "283a4bbb7bf66500c14a52a8d062cb1611d67eb8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "time": "2022-10-14T20:38:13+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Hasokeyk\\Trendyol\\": "src/trendyol"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Yüksektepe",
+                    "email": "hasanhasokeyk@hotmail.com"
+                }
+            ],
+            "description": "Basit Trendyol PHP API",
+            "keywords": [
+                "PHP API",
+                "eticaret",
+                "pazaryeri",
+                "trendyol",
+                "trendyol php api"
+            ],
+            "support": {
+                "issues": "https://github.com/Hasokeyk/trendyol-php/issues",
+                "source": "https://github.com/Hasokeyk/trendyol-php/tree/1.0.10"
+            },
+            "install-path": "../hasokeyk/trendyol"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

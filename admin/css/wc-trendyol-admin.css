@@ -1,0 +1,192 @@
+:root{
+	--background   : #ffece4;
+	--input_border : #cc4106;
+}
+.wc_trendyol_product_price_content{
+	float         : left;
+	width         : 100%;
+	border-top    : 1px solid #000;
+	border-bottom : 1px solid #000;
+	padding       : 14px !important;
+	background    : #eee;
+}
+.wc_trendyol_product_price_content .wc_trendyol_title{
+	float       : left;
+	width       : 100%;
+	/* text-align : right; */
+	font-size   : 22px;
+	text-indent : 10px;
+	line-height : 41px;
+}
+.wc_trendyol_product_price_content .wc_trendyol_title img{
+	float : left;
+	width : 45px;
+}
+.wc_trendyol_product_price_content .wc_trendyol_settings{
+	float : left;
+	width : 100%;
+}
+.wc_trendyol_product_price_content .wc_trendyol_settings.wc_trendyol_col_2{
+	float  : left;
+	width  : calc(50% - 40px);
+	margin : 10px 10px 0;
+}
+.wc_trendyol_product_price_content .wc_trendyol_settings.wc_trendyol_col_3{
+	float  : left;
+	width  : calc(33% - 40px);
+	margin : 10px 10px 0;
+}
+.wc_trendyol_product_price_content .wc_trendyol_settings label{
+	float  : left;
+	width  : 100%;
+	margin : 0;
+}
+.wc_trendyol_product_price_content .wc_trendyol_settings input{
+	float : left;
+	width : 100% !important;
+}
+.wc_trendyol_product_price_content .wc_trendyol_settings select{
+	float : left;
+	width : 100% !important;
+}
+.wc_trendyol_product_price_content .wc_trendyol_alert{
+	float       : left;
+	width       : calc(100% - 20px);
+	font-size   : 15px;
+	line-height : 41px;
+	text-indent : 10px;
+	color       : #d63638;
+}
+.wc_trendyol_product_price_content .wc_trendyol_alert img{
+	float : left;
+	width : 45px;
+}
+/* PRODUCT TABLE */
+.wp-list-table .column-trendyol_price{
+	width : 7%;
+}
+.wp-list-table .column-trendyol_exists{
+	width : 7%;
+}
+/* PRODUCT TABLE */
+/* OTHER */
+.wc_trendyol_clear_both{
+	clear : both;
+}
+/* OTHER */
+/*
+#woocommerce-product-data .wc_trendyol_settings_tab_options.active:hover > a:before,
+#woocommerce-product-data .wc_trendyol_settings_tab_options > a:before {
+	background: url( '../img/trendyol-logo.jpg' ) center center no-repeat;
+	content: " " !important;
+	background-size: 100%;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	line-height: 1;
+}
+@media only screen and (max-width: 900px) {
+	#woocommerce-product-data .wc_trendyol_settings_tab_options.active:hover > a:before,
+	#woocommerce-product-data .wc_trendyol_settings_tab_options > a:before,
+	#woocommerce-product-data .wc_trendyol_settings_tab_options:hover a:before {
+		background-size: 35%;
+	}
+}
+.wc_trendyol_settings_tab_options:hover a:before {
+	background: url( '../img/trendyol-logo.jpg' ) center center no-repeat;
+}
+*/
+/* TRENDYOL TAB */
+.wc_trendyol_settings_tab{
+	float      : left;
+	width      : 100%;
+	background : var(--background);
+}
+.wc_trendyol_settings_tab .wc_trendyol_title_img{
+	float         : left;
+	width         : 50px;
+	margin-right  : 10px;
+	border-radius : 500px;
+}
+.wc_trendyol_settings_tab .wc_trendyol_title{
+	float         : left;
+	width         : calc(100% - 30px);
+	margin        : 10px;
+	display       : flex;
+	align-content : center;
+	align-items   : center;
+}
+.wc_trendyol_settings_tab .wc_trendyol_settings{
+	float  : left;
+	width  : calc(100% - 30px);
+	margin : 15px;
+}
+.wc_trendyol_settings_tab .wc_trendyol_settings label{
+	float     : left;
+	width     : 100%;
+	margin    : 0 0 6px 0 !important;
+	font-size : 14px;
+}
+.wc_trendyol_settings_tab .wc_trendyol_settings input{
+	float  : left !important;
+	width  : 100% !important;
+	border : 2px solid var(--input_border) !important;
+}
+.wc_trendyol_settings_tab .wc_trendyol_settings input[type="checkbox"]{
+	float  : left !important;
+	width  : 20px !important;
+	height : 20px;
+	border : 2px solid var(--input_border) !important;
+}
+.wc_trendyol_settings_tab .wc_trendyol_settings input:disabled{
+	background : #ddd;
+}
+.wc_trendyol_settings_tab .wc_trendyol_settings select{
+	float  : left !important;
+	width  : 100% !important;
+	border : 2px solid var(--input_border) !important;
+}
+.wc_trendyol_settings_tab .select2-container{
+	float : left;
+	width : 100% !important;
+}
+/* TRENDYOL TAB */
+/* COL */
+.wc_trendyol_col_1{
+	float : left;
+	width : 100%;
+}
+.wc_trendyol_col_2{
+	float  : left !important;
+	width  : calc(50% - 30px) !important;
+	margin : 15px !important;
+}
+.wc_trendyol_col_3{
+	float  : left !important;
+	width  : calc(33.33% - 30px) !important;
+	margin : 15px !important;
+}
+.wc_trendyol_col_4{
+	float  : left !important;
+	width  : calc(25% - 30px) !important;
+	margin : 15px !important;
+}
+/* COL */
+/* ALERT */
+.wc_trendyol_alert{
+	float         : left;
+	width         : calc(100% - 30px);
+	border        : 2px solid #d63638;
+	margin        : 15px;
+	padding       : 10px;
+	box-sizing    : border-box;
+	border-radius : 10px;
+	background    : #d63638;
+	color         : #fff;
+}
+.wc_trendyol_alert a{
+	color           : #fff;
+	font-weight     : bold;
+	text-decoration : none;
+}
+/* ALERT */

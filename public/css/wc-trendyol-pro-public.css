@@ -1,0 +1,43 @@
+.wc_trendyol_question_content{
+	float : left;
+	width : 100%;
+	clear : both;
+}
+.wc_trendyol_question_content .wc_trendyol_question{
+	float         : left;
+	width         : 100%;
+	clear         : both;
+	background    : #ffe2dc;
+	padding       : 10px;
+	box-sizing    : border-box;
+	border-radius : 15px;
+	margin-bottom : 15px;
+}
+.wc_trendyol_question_content .wc_trendyol_question .wc_trendyol_customer_question{
+	float  : left;
+	width  : calc(100% - 30px);
+	clear  : both;
+	margin : 0 5px 10px 5px;
+}
+.wc_trendyol_question_content .wc_trendyol_question .wc_trendyol_customer_question .title{
+	float : left;
+	width : 100%;
+	color : #e2401c;
+	font-weight: bold;
+}
+.wc_trendyol_question_content .wc_trendyol_question .wc_trendyol_store_answer{
+	float         : left;
+	width         : 100%;
+	clear         : both;
+	background    : #fff;
+	padding       : 10px;
+	box-sizing    : border-box;
+	border-radius : 10px;
+	/* margin-top    : 15px; */
+}
+.wc_trendyol_question_content .wc_trendyol_question .wc_trendyol_store_answer .title{
+	float : left;
+	width : 100%;
+	color: #000;
+	font-weight: 700;
+}
